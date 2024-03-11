@@ -12,10 +12,10 @@
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
   } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+    die( 'Impossible de charger la bibliothèque « PHP Email Form »!');
   }
 
-  $contact = new PHP_Email_Form;
+  // $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
