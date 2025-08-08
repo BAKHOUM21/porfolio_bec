@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/image3.jpeg");
+  background-image: url("../img/image3.png");
   background-size:cover;
 }
 
@@ -1064,8 +1064,9 @@ section {
   background: #040b14;
 }
 
-#footer .copyright {
-  text-align: center;
+.copyright {
+  display: inline-flex;
+  color: #283eaa;
 }
 
 #footer .credits {
@@ -1081,4 +1082,8 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+.img-fluid{
+  width:100%;
+  height: 250px;
 }
