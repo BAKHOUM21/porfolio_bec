@@ -733,6 +733,22 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
+  body{
+    margin-bottom: 5%;
+  }
+  iframe{
+    height: 360px;
+  }
+  .contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  margin-top: 3%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.logo_bec{
+  width: 50px;
+}
 }
 
 /*--------------------------------------------------------------
