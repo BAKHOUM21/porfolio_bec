@@ -736,6 +736,14 @@ section {
   body{
     margin-bottom: 5%;
   }
+  #hero{
+    height: 200px;
+    padding: 3%;
+    background-image: url(../img/construction2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+  }
   iframe{
     height: 360px;
   }
@@ -749,7 +757,7 @@ section {
 .logo_bec{
   width: 50px;
 }
-}
+
 
 /*--------------------------------------------------------------
 # Contact
