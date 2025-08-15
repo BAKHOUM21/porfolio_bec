@@ -1159,3 +1159,6 @@ h5 {
 .logo_bec {
   width: 90%;
 }
+.list_resume p span{
+  display: block;
+}
