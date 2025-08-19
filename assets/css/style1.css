@@ -273,18 +273,6 @@ h6 {
   }
 }
 
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -744,27 +732,6 @@ section {
   background-color: #149ddd !important;
 }
 
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
-
-  body {
-    margin-bottom: 5%;
-  }
-
-  #hero {
-    height: 200px;
-    padding: 3%;
-    background-image: url(../img/construction2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-
-  iframe {
-    height: 360px;
-  }
-}
 
 .contact .info {
   padding: 10px;
@@ -999,9 +966,39 @@ section {
   content: "/";
 }
 
+@media (max-width: 767px) {
+  .testimonials {
+    margin: 30px 10px;
+  }
+
+  body {
+    margin-bottom: 5%;
+  }
+
+  #hero {
+    height: 300px;
+    padding: 3%;
+    background-image: url(../img/construction2.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+  }
+
+  iframe {
+    height: 360px;
+  }
+}
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
+  }
+
+  .portfolio-details .portfolio-description h2 {
+    width: 100%;
+  }
+
+  .portfolio-details .portfolio-info {
+    position: static;
+    margin-top: 30px;
   }
 
   .breadcrumbs ol {
@@ -1010,6 +1007,17 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
 }
 
@@ -1091,16 +1099,6 @@ section {
   padding: 0;
 }
 
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
-    width: 100%;
-  }
-
-  .portfolio-details .portfolio-info {
-    position: static;
-    margin-top: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Footer
@@ -1159,6 +1157,7 @@ h5 {
 .logo_bec {
   width: 90%;
 }
-.list_resume p span{
+
+.list_resume p span {
   display: block;
 }
