@@ -977,9 +977,10 @@ section {
 
   #hero {
     height: 300px;
-    padding: 3%;
+    margin: auto;
     background-image: url(../img/construction2.png);
-    background-size: 130%;
+    background-size: contain;
+    
     background-repeat: no-repeat;
   }
 
