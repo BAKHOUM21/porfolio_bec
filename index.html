@@ -21,10 +21,12 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style1.css" rel="stylesheet">
@@ -42,25 +44,25 @@
 
       <div class="profile ">
         <img src="assets/img/logo_bec.png" alt class="rounded-circle bg-light">
-        <h3 class="text-center"><a href="index.html" class="text-light">Bator Engineering Company</a></h3>
+        <h3 class="text-center"><a href="index.html" class="text-light text-decoration-none">Bator Engineering Company</a></h3>
       </div>
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i>
+          <li class="active text-decoration-none"><a href="#hero" class="text-decoration-none"><i class="bx bx-home"></i>
               <span>Accueil</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>A propos</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Sommaire</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i>
+          <li><a href="#about" class="text-decoration-none"><i class="bx bx-user"></i> <span>A propos</span></a></li>
+          <li><a href="#resume" class="text-decoration-none"><i class="bx bx-file-blank"></i> <span>Sommaire</span></a></li>
+          <li><a href="#portfolio" class="text-decoration-none"><i class="bx bx-book-content"></i>
               Portfolio</a></li>
-          <li><a href="#services"><i class="bx bx-server"></i> Services</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+          <li><a href="#services" class="text-decoration-none"><i class="bx bx-server"></i> Services</a></li>
+          <li><a href="#contact" class="text-decoration-none"><i class="bx bx-envelope"></i> Contact</a></li>
 
         </ul>
         <!-- ======= Auteur ======= -->
         <div class="container">
           <div class="copyright text-light d-flex text-center">
-            <strong><a class="d-inline-flex" href="#">&copy; Réalisé par BTech 2025</a></strong>
+            <strong><a class="d-inline-flex text-decoration-none" href="#">&copy; Réalisé par BTech 2025</a></strong>
           </div>
         </div>
         <!-- Fin  Auteur -->
@@ -71,14 +73,49 @@
   </header><!-- Fin Header -->
 
   <!-- ======= Section Hero ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1> Je me nomme Mbaye Niang</h1>
+  <!-- <section id="hero" class="d-flex flex-column justify-content-center align-items-center ">
+    <div class="hero-container" data-aos="fade-in">  -->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets//img/AMENAGEMENT VILLE DE MBACKE3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>PDG du Groupe BEC.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/DAKAR (1).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Expert en Matériaux et contructions durables.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/TOUBA MBACKE.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Ingénieur Génie Civil.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- <h1> Je me nomme Mbaye Niang</h1>
       <p>Je suis <span class="typed"
           data-typed-items="Ingénieur Génie Civil, Expert en Matériaux et contructions durables, PDG du Groupe BEC"></span>
-      </p>
-    </div>
-  </section><!-- Fin Hero -->
+      </p> -->
+  <!-- </section> -->
+  <!-- Fin Hero -->
 
   <main id="main">
     <!-- ======= Section A propos ======= -->
@@ -87,7 +124,8 @@
 
         <div class="section-title">
           <h2>A propos</h2>
-          <p>Je suis Ingénieur Génie Civil, expert en matériaux et constructions durables.J'ai une solide expérience dans
+          <p>Je suis Ingénieur Génie Civil, expert en matériaux et constructions durables.J'ai une solide expérience
+            dans
             le
             domaine depuis plus de 5 ans.</p>
         </div>
