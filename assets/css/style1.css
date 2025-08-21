@@ -271,6 +271,9 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+  .cars{
+    height:600px;
+  }
 }
 
 
@@ -970,7 +973,9 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
-
+  .cars{
+    height:600px;
+  }
   body {
     margin-bottom: 5%;
   }
@@ -992,7 +997,9 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
-
+  .cars{
+    height:600px;
+  }
   .portfolio-details .portfolio-description h2 {
     width: 100%;
   }
