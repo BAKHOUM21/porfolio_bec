@@ -1,3 +1,9 @@
+/**
+* Template Name: iPortfolio - v1.5.1
+* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
 /*--------------------------------------------------------------
 # General
@@ -218,8 +224,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
+  /* background-image: url("../img/construction2.png"); */
   background-size: cover;
-  background-size:cover;
 }
 
 #hero:before {
@@ -968,7 +974,7 @@ section {
     margin: 30px 10px;
   }
   .cars{
-    height:350px;
+    height:600px;
   }
   body {
     margin-bottom: 5%;
@@ -977,6 +983,7 @@ section {
   #hero {
     height: 300px;
     margin: auto;
+    /* background-image: url(../img/construction2.png); */
     background-size: contain;
     
     background-repeat: no-repeat;
@@ -991,7 +998,7 @@ section {
     display: block !important;
   }
   .cars{
-    height:350px;
+    height:600px;
   }
   .portfolio-details .portfolio-description h2 {
     width: 100%;
@@ -1116,9 +1123,8 @@ section {
   background: #040b14;
 }
 
-.copyright {
-  display: inline-flex;
-  color: #283eaa;
+#footer .copyright {
+  text-align: center;
 }
 
 #footer .credits {
@@ -1148,7 +1154,7 @@ section {
 
 .rounded-circle {
   display: none;
-  height: 100px;
+  height: 120px;
 }
 
 h5 {
@@ -1162,8 +1168,4 @@ h5 {
 
 .list_resume p span {
   display: block;
-}
-.img-fluid{
-  width:100%;
-  height: 250px;
 }
