@@ -128,6 +128,15 @@ h6 {
   margin-left: 300px;
 }
 
+@media (max-width: 1199px) {
+  #header {
+    left: -300px;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -256,6 +265,12 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
 }
 
 
@@ -951,7 +966,7 @@ section {
   content: "/";
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .testimonials {
     margin: 30px 10px;
   }
@@ -962,42 +977,18 @@ section {
 
   #hero {
     height: 300px;
-    /* margin: auto; */
+    margin: auto;
     /* background-image: url(../img/construction2.png); */
     background-size: contain;
-
+    
     background-repeat: no-repeat;
-  }
-  .carousel {
-    margin-left: 0%;
-    width: 100%;
   }
 
   iframe {
     height: 360px;
   }
 }
-@media (width<= 1024px) {
-  #header {
-    left: -300px;
-  }
-  .carousel{
-    width:100%;
-  }
-  #main {
-    margin-left: 0;
-  }
-}
-@media (max-width: 1024px) {
-  #header {
-    left: -300px;
-  }
-  #main {
-    margin-left: 0;
-  }
-}
-
-@media (width>= 1440px) {
+@media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -1023,18 +1014,12 @@ section {
     font-size: 28px;
     line-height: 36px;
   }
-  .carousel {
-    margin-left: 22.5%;
-    width: 75%;
-    height: 100%;
-  }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -1142,33 +1127,17 @@ section {
   color: #eaebf0;
 }
 
-/* @media screen and(width >= 1440px ) {
+@media (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
-  }
-
-  .carousel {
-    margin-left: 23.5%;
-    width: 75%;
-  }
-} */
-@media screen and(max-width: 2560px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
-
-  .carousel {
-    margin-left: 23.5%;
-    width: 75%;
   }
 }
+
 .img-fluid {
-  width: 75%;
-  margin-left: 22.5%;
+  width: 100%;
+  height: 250px;
 }
 
 .card:hover {
@@ -1193,4 +1162,3 @@ h5 {
 .list_resume p span {
   display: block;
 }
-
