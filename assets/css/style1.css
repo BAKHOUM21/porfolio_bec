@@ -968,7 +968,7 @@ section {
     margin: 30px 10px;
   }
   .cars{
-    height:400px;
+    height:350px;
   }
   body {
     margin-bottom: 5%;
@@ -991,7 +991,7 @@ section {
     display: block !important;
   }
   .cars{
-    height:600px;
+    height:350px;
   }
   .portfolio-details .portfolio-description h2 {
     width: 100%;
