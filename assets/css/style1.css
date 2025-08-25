@@ -274,6 +274,14 @@ h6 {
   .cars{
     height:600px;
   }
+  #hero h1 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 36px;
+  }
+  #hero p{
+    text-align: center;
+  }
 }
 
 
@@ -988,7 +996,7 @@ section {
     
     background-repeat: no-repeat;
   }
-
+  
   iframe {
     height: 360px;
   }
@@ -1019,7 +1027,11 @@ section {
 
   #hero h1 {
     font-size: 28px;
+    text-align: center;
     line-height: 36px;
+  }
+  #hero p{
+    text-align: center;
   }
 
   #hero h2 {
