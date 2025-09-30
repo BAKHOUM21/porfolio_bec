@@ -1181,3 +1181,12 @@ h5 {
 .list_resume p span {
   display: block;
 }
+button{
+  border: 0px ;
+  border-radius: 5px;
+  background-color: #040b14;
+  color: #ff8f10;
+}
+button a{
+  text-decoration: none;
+}
