@@ -1,6 +1,7 @@
-<<<<<<< HEAD
+=================================
 
-Made by Btech
-=======
+          Made by Btech
+=================================
+
 Porfolio BATOR ENGINEERING COMPANY.
->>>>>>>
+
